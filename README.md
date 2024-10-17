@@ -1,1 +1,1 @@
-# ACDC120W19O5V
+19.5 V 120W Universal Input AC Power Supply.
