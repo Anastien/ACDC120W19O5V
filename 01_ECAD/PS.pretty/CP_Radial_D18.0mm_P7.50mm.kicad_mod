@@ -1,0 +1,173 @@
+(footprint "CP_Radial_D18.0mm_P7.50mm"
+	(version 20241010)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 3.75 -10.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf45d79c-79a8-408d-9a38-f3d80b006f04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "450QXW220MEFR18X50"
+		(at 3.75 10.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd0d8ec9-2bae-4b9f-bcb4-61b8efa31dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efb08caa-d746-4018-9ad8-899486cddd32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f4dd279-9bb1-4cd5-acd9-35a5b1fbb248")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5b60f9a-b4c0-44fd-8061-1d6d7efe4204")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -2.5)
+		(end 0 -5.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae1baa52-9911-461e-a9ea-848237fb10e4")
+	)
+	(fp_line
+		(start 7.5 -2.5)
+		(end 7.5 -5.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2264389-464a-4bfe-9e40-a48ef1d756f7")
+	)
+	(fp_line
+		(start 8.6 -3.75)
+		(end 10.4 -3.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2b7ccca-cf84-46cc-a2f9-82ca516959d1")
+	)
+	(fp_line
+		(start 9.5 -4.65)
+		(end 9.5 -2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03d21b3b-67e0-4d6c-9d28-54faaaccf309")
+	)
+	(fp_rect
+		(start -5.25 -55.5)
+		(end 12.75 -5.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8d231b98-7cdb-4dc3-916a-0911cb398609")
+	)
+	(fp_rect
+		(start -6 -56)
+		(end 13.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "22038d65-f5c2-4664-b647-2a38c77fdbdf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0 0)
+		(layer "F.Fab")
+		(uuid "46e9f1ec-7a35-4765-912c-8dd20a597d31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 7.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c588ff3f-9be1-41de-9319-ae4679f99315")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80173cbf-5700-491a-b496-c40e25266238")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PS.pretty/E-LEAD_D18_L45__FLAT-RUBBER_SLEEVE_STRUCTURE.step"
+		(offset
+			(xyz 3.7 8.8 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

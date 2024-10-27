@@ -1,0 +1,135 @@
+(footprint "HSS-B20-NPS-02"
+	(version 20240617)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0cbca107-8b8a-44c0-af71-df7134d25518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HSS-B20-NPS-02"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b17910a-0391-45fd-8f22-41566c4f1fb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "801bcf15-0194-40b9-b65d-c13f122840db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4c8f71-0458-4a67-9fb5-e2433a0b160e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6082905a-cbc9-47e8-a6cf-f222aef48df0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -11.5 -1.2) (xy -0.3 -1.2) (xy 11.5 -1.2) (xy 11.5 -12.75) (xy 12.7 -12.75) (xy 12.7 0) (xy 11.5 0)
+			(xy -0.3 0) (xy -11.5 0) (xy -12.7 0) (xy -12.7 -12.75) (xy -11.5 -12.75)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7769eca-41c8-421e-ad73-d3ec51e54a5d")
+	)
+	(fp_rect
+		(start -14 -13)
+		(end 14 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7a56f381-4684-4d37-b512-ebf3da735910")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9887d455-8fd0-471e-9c05-c0b5abf08c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -12.1 -10.2 90)
+		(size 4.2 3)
+		(drill oval 3.2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5eba2ae0-d18e-41f4-bf17-8a6523f7705c")
+	)
+	(pad "1" thru_hole oval
+		(at 12.1 -10.2 90)
+		(size 4.2 3)
+		(drill oval 3.2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a765ab82-264f-430e-9b94-3b71e54d9640")
+	)
+	(model "${KIPRJMOD}/PS.pretty/CUI_DEVICES_HSS-B20-NPS-02.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 180)
+		)
+	)
+)

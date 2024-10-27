@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "awg1000")(type "KiCad")(uri "E:/Personal/Anas/AWG1000/hardware/01-ECAD/02_AWG100_Carrier_Board/01-KiCAD Files/AWG1000/awg1000.kicad_sym")(options "")(descr ""))
+  (lib (name "DQSBC")(type "KiCad")(uri "E:/Personal/Projects/Anas/01_DQSBC/DQBSC/DQSBC.kicad_sym")(options "")(descr ""))
+  (lib (name "DQSBCkicad_sym")(type "KiCad")(uri "E:/Personal/Projects/Anas/01_DQSBC/DQBSC/DQSBCkicad_sym.kicad_sym")(options "")(descr ""))
+  (lib (name "ps")(type "KiCad")(uri "${KIPRJMOD}/ps.kicad_sym")(options "")(descr ""))
+)
